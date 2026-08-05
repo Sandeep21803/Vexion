@@ -160,7 +160,7 @@ button {
 <body>
 
 <header>
-  <h1>padhowithPratyush</h1>
+  <h1>Vexion</h1>
   <span class="badge hl">HNSW</span>
   <span class="badge">KD-TREE</span>
   <span class="badge">BRUTE FORCE</span>
@@ -853,6 +853,11 @@ function toggleCtx(i) {
 resize(); drawFrame();
 loadItems().then(loadHNSW);
 checkOllamaStatus();
+setInterval(checkOllamaStatus, 5000);
+window.addEventListener('focus', checkOllamaStatus);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) checkOllamaStatus();
+});
 </script>
 </body>
 </html>
