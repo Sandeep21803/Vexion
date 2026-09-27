@@ -126,20 +126,8 @@ You should see both models listed.
 
 ---
 
-### Step 4 — Clone the Repository
 
-Open **PowerShell** and run:
-
-```powershell
-git clone https://github.com/YOUR_USERNAME/VectorDB.git
-cd VectorDB
-```
-
-*(Replace `YOUR_USERNAME` with the actual GitHub username)*
-
----
-
-### Step 5 — Compile the C++ Server
+### Step 4 — Compile the C++ Server
 
 Inside the `VectorDB` folder, run:
 
