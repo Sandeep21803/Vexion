@@ -144,7 +144,7 @@ This produces `db.exe`. It takes about 10–20 seconds.
 
 ---
 
-### Step 6 — Run Everything
+### Step 5 — Run Everything
 
 **Terminal 1** — Start Ollama (if not already running):
 ```powershell
